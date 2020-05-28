@@ -1,0 +1,48 @@
+section.second {
+  .secondParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    img {
+      width: 500px;
+    }
+    .textParent {
+      width: 39%;
+      h3 {
+        font-size: 20px;
+        font-family: $headerFont;
+        color: $black;
+        text-transform: uppercase;
+      }
+      h3.right {
+        text-align: right;
+      }
+      p {
+        font-family: $bodyFont;
+        line-height: 1.5;
+      }
+    }
+    img.topImage {
+      box-shadow: 20px 15px 0 5px $yellow;
+    }
+    img.bottomImage {
+      box-shadow: -20px 15px 0 5px $yellow;
+    }
+    a {
+      font-family: $headerFont;
+      color: $black;
+      font-size: 16px;
+      line-height: 32px;
+      text-transform: uppercase;
+      background-color: $green;
+      padding: 8px 15px;
+      margin-top: 10px;
+      transition: 0.3s;
+      &:hover,
+      &:focus {
+        background-color: $yellow;
+      }
+    }
+  }
+}

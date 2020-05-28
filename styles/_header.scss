@@ -1,0 +1,39 @@
+.header {
+  height: 100vh;
+  background-image: url(../assets/header-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    li {
+      margin: 23px;
+      a {
+        color: $black;
+        font-family: $headerFont;
+        text-transform: uppercase;
+        padding-bottom: 2px;
+        transition: 0.3s;
+        border-bottom: 1px solid transparent;
+        &:hover,
+        &:focus {
+          border-bottom: 1px solid $green;
+        }
+      }
+    }
+  }
+  .heading.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 95px;
+    letter-spacing: 1.1px;
+    font-family: $headerFont;
+    margin: 0 auto;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+}

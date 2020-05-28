@@ -1,0 +1,35 @@
+section.third {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: $ice;
+  .gridWrapper {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    justify-content: space-between;
+    grid-gap: 40px;
+  }
+  h3 {
+    font-family: $headerFont;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  p {
+    font-family: $bodyFont;
+    line-height: 1.5;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+  .circle {
+    border-radius: 50%;
+    padding: 3px;
+    background-color: $green;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
